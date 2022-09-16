@@ -1,4 +1,4 @@
-# Devine: Part 1 (Drupal)
+# Devine: Part 2 (Drupal)
 
 This is part 2 of two eco systems that are integrated for demonstration purposes.
 
@@ -23,10 +23,10 @@ php -S 127.0.0.1:8081 -t web
 and open [localhost] and follow the prompts to install Drupal.
 (http://127.0.0.1:8081)
 
-Once completed, head over to admin/extend and activate the module
+Once completed, head over to /admin/modules and activate the module
 'Programming Languages' under Custom modules.
 
-Then open the URL languages/list and see your results.
+Then open the URL /languages/list and see your results.
 
 That's all!!
 
