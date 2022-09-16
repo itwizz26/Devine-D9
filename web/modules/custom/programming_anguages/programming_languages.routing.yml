@@ -1,0 +1,7 @@
+programming_languages.get_languages:
+    path: 'languages/list'
+    defaults:
+      _controller: '\Drupal\programming_languages\Controller\LanguagesController::getLanguages'
+      _title: 'Programming Languages'
+    requirements:
+      _permission: 'access content'

@@ -1,0 +1,23 @@
+<div class="container">
+    <h1> {{ data.title }} </h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Creator</th>
+                <th>Name</th>
+                <th>Popularity</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in data.languages %}
+                <tr>
+                    <td>{{ item.creator }}</td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.popularity }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
